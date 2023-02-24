@@ -1,0 +1,23 @@
+
+swagger: "2.0"
+  info: 
+     title: This is my swagger
+     description: This is my company
+     version: 1.0.0
+     contact:
+       email: kumarmuthu@gmail.com
+       servers: 
+       -url: 'http://localhost:8080/'
+       description: This is my local server
+
+schemes: [http, https]
+
+paths:
+  /book:
+  get:
+    summary: This api swagger
+    description: This api swagger
+
+    responses:
+      200:
+      description: Success
